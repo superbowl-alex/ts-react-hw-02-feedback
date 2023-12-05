@@ -15,7 +15,7 @@ const Statistics: FC<StatisticsProps> = ({
    bad,
    total,
    positivePercentage,
-   }: StatisticsProps) => {
+   }) => {
   return (
     <StatList>
       <StatItem>Good: {good}</StatItem>

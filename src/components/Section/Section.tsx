@@ -6,7 +6,7 @@ interface SectionProps {
   children: ReactNode ;
 }
 
-const Section: FC<SectionProps> = ({ title, children }: SectionProps) => {
+const Section: FC<SectionProps> = ({ title, children }) => {
   return (
     <WrapSection>
       <SectionTitle>{title}</SectionTitle>

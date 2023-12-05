@@ -5,7 +5,7 @@ interface NotificationProps {
   message: string;
 }
 
-const Notification: FC<NotificationProps> = ({ message }: NotificationProps) => {
+const Notification: FC<NotificationProps> = ({ message }) => {
   return <Info>{message} </Info>;
 };
 

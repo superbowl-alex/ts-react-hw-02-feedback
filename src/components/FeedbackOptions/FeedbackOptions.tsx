@@ -7,7 +7,7 @@ interface FeedbackOptionsProps {
   onLeaveFeedback: (key: keyof AppState) => void;
 }
 
-const FeedbackOptions: FC<FeedbackOptionsProps> = ({ options, onLeaveFeedback }: FeedbackOptionsProps) => {
+const FeedbackOptions: FC<FeedbackOptionsProps> = ({ options, onLeaveFeedback }) => {
   return options.map(key => (
     <Button key={key} onClick={() => onLeaveFeedback(key)}>
       {key}
