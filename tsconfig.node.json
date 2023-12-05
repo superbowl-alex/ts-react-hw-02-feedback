@@ -5,8 +5,8 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "allowSyntheticDefaultImports": true,
-    "jsx": "react-jsx",
-    "jsxImportSource": "@emotion/react"
+    // "jsx": "react-jsx",
+    // "jsxImportSource": "@emotion/react"
   },
   "include": ["vite.config.ts"]
 }
